@@ -1,5 +1,4 @@
 # teufelcast
-==========
 
 DISCLAIMER: This was vibe coded, start to finish. It works on my machine.
 If it sets your speaker on fire, you get to keep both pieces.
@@ -65,4 +64,4 @@ sink. If it crashed and left the sink behind:
 ## Links
 ----
 
-- [^1] Teufel Streamer: https://teufel.de/teufel-streamer-105431000
+- [^1]: Teufel Streamer: https://teufel.de/teufel-streamer-105431000
