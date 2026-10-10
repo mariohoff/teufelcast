@@ -21,6 +21,8 @@ Latency is a few seconds. Fine for music. Useless for video.
 
 ![Teufelcast](img/teufelcast.png)
 
+![Audio select](img/audiosel.png)
+
 REQUIREMENTS
 ------------
 
