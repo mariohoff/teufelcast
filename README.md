@@ -1,15 +1,15 @@
-teufelcast
+# teufelcast
 ==========
 
 DISCLAIMER: This was vibe coded, start to finish. It works on my machine.
 If it sets your speaker on fire, you get to keep both pieces.
 
 
-WHAT
+## WHAT
 ----
 
 Streams your desktop audio to a UPnP/DLNA renderer (written for a Teufel
-Streamer, probably works with others).
+Streamer[^1], probably works with others).
 
 It creates a PipeWire null sink called "teufel" and tells the speaker to
 fetch http://<your-ip>:8090/live.mp3. Every request from the speaker gets
@@ -23,8 +23,8 @@ Latency is a few seconds. Fine for music. Useless for video.
 
 ![Audio select](img/audiosel.png)
 
-REQUIREMENTS
-------------
+## Requirements
+----
 
 - Linux with PipeWire and pipewire-pulse
 - ffmpeg with libmp3lame (Fedora's ffmpeg-free has it)
@@ -37,8 +37,8 @@ The speaker has to be able to reach port 8090 on your box:
     sudo firewall-cmd --reload
 
 
-RUN
----
+## Run
+----
 
     go build -o teufelcast .
     ./teufelcast
@@ -61,3 +61,8 @@ Ctrl+C stops the speaker, restores your default output and removes the
 sink. If it crashed and left the sink behind:
 
     pactl unload-module module-null-sink
+
+## Links
+----
+
+- [^1] Teufel Streamer: https://teufel.de/teufel-streamer-105431000
