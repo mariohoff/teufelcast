@@ -5,7 +5,6 @@ If it sets your speaker on fire, you get to keep both pieces.
 
 
 ## WHAT
-----
 
 Streams your desktop audio to a UPnP/DLNA renderer (written for a Teufel
 Streamer[^1], probably works with others).
@@ -23,7 +22,6 @@ Latency is a few seconds. Fine for music. Useless for video.
 ![Audio select](img/audiosel.png)
 
 ## Requirements
-----
 
 - Linux with PipeWire and pipewire-pulse
 - ffmpeg with libmp3lame (Fedora's ffmpeg-free has it)
@@ -37,7 +35,6 @@ The speaker has to be able to reach port 8090 on your box:
 
 
 ## Run
-----
 
     go build -o teufelcast .
     ./teufelcast
@@ -62,6 +59,5 @@ sink. If it crashed and left the sink behind:
     pactl unload-module module-null-sink
 
 ## Links
-----
 
 [^1]: Teufel Streamer: https://teufel.de/teufel-streamer-105431000
