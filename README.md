@@ -64,4 +64,4 @@ sink. If it crashed and left the sink behind:
 ## Links
 ----
 
-- [^1]: Teufel Streamer: https://teufel.de/teufel-streamer-105431000
+[^1]: Teufel Streamer: https://teufel.de/teufel-streamer-105431000
